@@ -3,5 +3,5 @@ illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
-map_Kd https://github.com/tcohlmia/QRAR/blob/master/Tex_Dinosaur.png?raw=true
+map_Kd http://github.com/tcohlmia/QRAR/blob/master/Tex_Dinosaur.png?raw=true
 Ni 1.00
