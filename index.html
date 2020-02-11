@@ -7,6 +7,7 @@
 <body style=’margin : 0px; overflow: hidden;’>
   <a-scene embedded arjs=’sourceType: webcam;’>
     <a-assets>
+      <video id="test_video" autoplay loop="true" src="Cathy_Malort.mp4"></video>
     </a-assets>
 
     <!-- handle marker with your own pattern -->
@@ -26,8 +27,8 @@
     </a-marker>
 
     <a-marker type="pattern" preset="custom" url="pattern-howdy.patt">
-      <!-- Raptor -->
-      <a-entity obj-model="obj: url(howdy.obj); mtl: url(howdy.mtl)" rotate="270 0 0" scale="0.1 0.1 0.1"></a-entity>
+      <!-- Video -->
+      <a-video src="#test_video" width="4" height="3" position="0 0 -20"></a-video>
     </a-marker>
 
     <!-- add a simple camera -->
